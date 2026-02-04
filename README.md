@@ -36,7 +36,7 @@ Le système repose sur une architecture **Actor-Critic** :
 
 L’agent Blue interagit avec l’environnement, collecte des trajectoires, calcule les avantages (GAE) et met à jour sa politique via PPO.
 
-## 🚀 Entraînement
+## Entraînement
 
 L’entraînement se fait sur plusieurs épisodes, chaque épisode correspondant à une simulation complète de défense du réseau.
 
