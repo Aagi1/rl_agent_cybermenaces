@@ -1,5 +1,4 @@
 # PPO-based Cyber Defense Agent using CybORG 🛡️ 
----
 
 Ce projet implémente un agent de défense cyber utilisant **l’apprentissage par renforcement profond (Deep Reinforcement Learning)**. L’agent, entraîné avec l’algorithme **Proximal Policy Optimization (PPO)**, apprend à protéger un réseau simulé contre un attaquant automatisé dans l’environnement **CybORG**.
 
@@ -7,7 +6,6 @@ Ce projet implémente un agent de défense cyber utilisant **l’apprentissage p
 
 
 ## Objectif du projet
----
 
 L’objectif principal est d’étudier la capacité d’un agent intelligent à :
 - prendre des décisions défensives adaptées dans un environnement cyber dynamique,
@@ -18,7 +16,7 @@ L’agent défensif (*Blue*) est entraîné contre un attaquant préprogrammé (
 
 
 
-## 🧠 Technologies utilisées
+## Technologies utilisées
 
 - **Python**
 - **PyTorch** – implémentation du réseau Actor-Critic
@@ -26,9 +24,8 @@ L’agent défensif (*Blue*) est entraîné contre un attaquant préprogrammé (
 - **Proximal Policy Optimization (PPO)**
 - **NumPy**
 
----
 
-## ⚙️ Architecture générale
+## Architecture générale
 
 Le système repose sur une architecture **Actor-Critic** :
 
@@ -38,18 +35,6 @@ Le système repose sur une architecture **Actor-Critic** :
 - **Adversaire** : agent Red (`B_lineAgent`)
 
 L’agent Blue interagit avec l’environnement, collecte des trajectoires, calcule les avantages (GAE) et met à jour sa politique via PPO.
-
----
-
-## 📂 Structure du projet
-
-├── main.py # Script principal (entraînement + évaluation)
-├── best_ppo_model.pth # Meilleur modèle sauvegardé
-├── final_ppo_model.pth # Modèle final après entraînement
-├── README.md # Documentation du projet
-
-
----
 
 ## 🚀 Entraînement
 
@@ -64,7 +49,8 @@ Principaux paramètres :
 Pour lancer l’entraînement :
 
 ```bash
-python main.py
+python main.py 
+```
 
 Les modèles sont automatiquement sauvegardés :
 
