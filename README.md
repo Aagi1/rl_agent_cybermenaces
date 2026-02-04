@@ -2,7 +2,8 @@
 
 Ce projet implémente un agent de défense cyber utilisant **l’apprentissage par renforcement profond (Deep Reinforcement Learning)**. L’agent, entraîné avec l’algorithme **Proximal Policy Optimization (PPO)**, apprend à protéger un réseau simulé contre un attaquant automatisé dans l’environnement **CybORG**.
 
----
+<img width="500" height="303" alt="image" src="https://github.com/user-attachments/assets/0900f000-d645-4e7f-b885-a14d9e4d12af" />
+
 
 ## 📌 Objectif du projet
 
